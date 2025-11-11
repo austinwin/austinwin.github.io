@@ -3,14 +3,6 @@ layout: post
 title: The Magic of Self-Attention
 ---
 
-# 🧠 Understanding “The Illustrated Transformer” — Simplified Breakdown
-
-You picked one of the most legendary explainers of all time: **Jay Alammar’s _The Illustrated Transformer_**.  
-It’s the foundation of how every modern LLM (like GPT-5) works.  
-Let’s rebuild your understanding from zero → to “I can explain self-attention and Transformers to anyone.”
-
----
-
 ## 🧩 1. Starting Point — What’s the Problem?
 
 Old models like **RNNs** or **LSTMs** read sentences **one word at a time**, remembering the past in a “hidden state.”  
