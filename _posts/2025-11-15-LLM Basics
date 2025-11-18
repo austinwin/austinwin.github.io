@@ -2,7 +2,8 @@
 layout: post
 title: What the Transformer Does?
 ---
-The Building Blocks: What Powers an LLM?An LLM isn't a single "brain"—it's a stack of layers called Transformers. Each transformer layer processes text in parallel (unlike older models like RNNs that go sequentially). Key parts:Tokens: Text is chopped into small pieces (e.g., words or subwords). "The cat ate fish" → Tokens: ["The", "cat", "ate", "fish"].
+The Building Blocks: What Powers an LLM?  
+An LLM isn't a single "brain"—it's a stack of layers called Transformers. Each transformer layer processes text in parallel (unlike older models like RNNs that go sequentially). Key parts:Tokens: Text is chopped into small pieces (e.g., words or subwords). "The cat ate fish" → Tokens: ["The", "cat", "ate", "fish"].
 Embeddings: Each token becomes a vector (a list of numbers, like [0.1, 0.5, -0.2, ...]) representing its meaning. Learned during training.
 Positional Encoding: Adds info about word order (e.g., "cat ate" ≠ "ate cat") using math waves.
 Self-Attention: The star of the show—lets words "talk" to each other to understand context.
